@@ -1,2 +1,15 @@
 @import "tailwindcss";
 
+@theme {
+    --color-tom-thumb-50: #f3f6f4;
+    --color-tom-thumb-100: #e1eae1;
+    --color-tom-thumb-200: #c4d6c6;
+    --color-tom-thumb-300: #9db8a2;
+    --color-tom-thumb-400: #729579;
+    --color-tom-thumb-500: #52775c;
+    --color-tom-thumb-600: #3e5f47;
+    --color-tom-thumb-700: #314b39;
+    --color-tom-thumb-800: #293c2f;
+    --color-tom-thumb-900: #223227;
+    --color-tom-thumb-950: #121c15;
+}
