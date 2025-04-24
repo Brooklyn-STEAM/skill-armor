@@ -1,17 +1,32 @@
 @import "tailwindcss";
  
+@plugin "@iconify/tailwind4";
+
 @theme {
-     --color-tom-thumb-50: #f3f6f4;
-     --color-tom-thumb-100: #e1eae1;
-     --color-tom-thumb-200: #c4d6c6;
-     --color-tom-thumb-300: #9db8a2;
-     --color-tom-thumb-400: #729579;
-     --color-tom-thumb-500: #52775c;
-     --color-tom-thumb-600: #3e5f47;
-     --color-tom-thumb-700: #314b39;
-     --color-tom-thumb-800: #293c2f;
-     --color-tom-thumb-900: #223227;
-     --color-tom-thumb-950: #121c15;
+    --color-tom-thumb-50: #f3f6f4;
+    --color-tom-thumb-100: #e1eae1;
+    --color-tom-thumb-200: #c4d6c6;
+    --color-tom-thumb-300: #9db8a2;
+    --color-tom-thumb-400: #729579;
+    --color-tom-thumb-500: #52775c;
+    --color-tom-thumb-600: #3e5f47;
+    --color-tom-thumb-700: #314b39;
+    --color-tom-thumb-800: #293c2f;
+    --color-tom-thumb-900: #223227;
+    --color-tom-thumb-950: #121c15;
+
+    --color-onahau-50: #eefafd;
+    --color-onahau-100: #c6edf6;
+    --color-onahau-200: #b0e4f1;
+    --color-onahau-300: #79cfe7;
+    --color-onahau-400: #3bb1d5;
+    --color-onahau-500: #1f94bb;
+    --color-onahau-600: #1d779d;
+    --color-onahau-700: #1e6180;
+    --color-onahau-800: #215169;
+    --color-onahau-900: #1f445a;
+    --color-onahau-950: #0f2b3d;
+}
 
      --color-mantis-50: #f4fbf2;
      --color-mantis-100: #e7f6e2;
