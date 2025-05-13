@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,78 +8,86 @@
     <title>Skill Armor | About Us</title>
     <link rel="shortcut icon" href="/src/assets/images/logo.png" type="image/x-icon">
 </head>
-<body>
-  <include src="components/navbar.html"></include>
-    <div class="py-16 bg-white">  
-        <div class="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
-            <div class="space-y-6 md:space-y-0 md:flex md:gap-6 lg:items-center lg:gap-12">
-              <div class="md:5/12 lg:w-5/12">
-                <img src="/src/assets/images/logo.png" alt="image" loading="lazy" width="300px" height="300px">
-              </div>
-              <div class="md:7/12 lg:w-6/12">
-                <h2 class="text-2xl text-tom-thumb-500 font-bold md:text-4xl text-center">We keep your skills safe</h2>
-                <p class="text-xl mt-6 text-center text-tom-thumb-400">Skill Armor is a privately-owned business</p>
-                <p class="text-xl mt-4 text-center text-tom-thumb-400"> We are service-based business that are focused on education and career transition services. It offers courses, certifications, and career coaching aimed at helping individuals reskill and transition to jobs that are resistant to AI automation.</p>
-              </div>
+
+<body class="bg-white text-gray-900">
+
+   
+    <include src="components/navbar.html"></include>
+
+    <section class="py-16 bg-gradient-to-r from-green-500 to-green-700 text-white">
+        <div class="container mx-auto px-6 text-center">
+            <div class="md:flex md:justify-between md:items-center">
+                <div class="md:w-5/12">
+                    <img src="/src/assets/images/logo.png" alt="Skill Armor Logo" class="mx-auto mb-6 rounded-full" width="250">
+                </div>
+                <div class="md:w-6/12">
+                    <h1 class="text-4xl font-extrabold">We Keep Your Skills Safe</h1>
+                    <p class="mt-4 text-xl">Skill Armor is a service-based business focused on education and career transition services. We offer courses, certifications, and career coaching aimed at helping individuals reskill and transition to jobs that are resistant to AI automation.</p>
+                </div>
             </div>
         </div>
-      </div>
-      <hr class="w-100% mx-auto border-t-5 border-onahau-100 my-8">
-      <div class="flex justify-around my-10">
-      <include src="components/profile.html">
-        { 
-            "image_src": "/src/assets/images/Dilisa.jpeg",
-            "name": "Dilisa Ward",
-            "position": "FullStack Development Student",
-            "Bio": "",
-            "linkedin": "https://www.linkedin.com/in/dilisa-ward-b64b0a353/",
-            "github": "https://github.com/dilisa25"  
-          }
-      </include>
-      <include src="components/profile.html">
-        { 
-            "image_src": "/src/assets/images/Jason.jpeg",
-            "name": "Jason Geban",
-            "position": "FullStack Development Student",
-            "Bio": "",
-            "linkedin": "https://www.linkedin.com/in/jason-geban-jr-b7a475329/",
-            "github":"https://github.com/Cooldude493"
-        }
-      </include>
-      </div>
-      <div class="flex justify-around my-10">
-      <include src="components/profile.html">
-        {
-            "image_src": "/src/assets/images/Jesiah.jpeg",
-            "name": "Jesiah Minott",
-            "position": "FullStack Development Student",
-            "Bio": "",
-            "linkedin":"https://www.linkedin.com/in/jesiah-minott-138068354/",
-            "github": "https://github.com/Jesiahm67"
-        }
-      </include>
-      <include src="components/profile.html">
-        {
-            "image_src": "/src/assets/images/Valerie.jpeg",
-            "name": "Valerie Burke",
-            "position": "FullStack Development Student",
-            "Bio": "",
-            "linkedin":"https://www.linkedin.com/in/valerie-burke-7a2632354/",
-            "github":"https://github.com/lavalender"
-        }
-      </include>
-    </div>
+    </section>
 
-    <hr class="w-350 mx-auto border-t-5 border-onahau-100 my-8">
-    <br>
-    <br>
-  <h2 class=" text-tom-thumb-500 font-semibold text-4xl text-center">Who We Are!</h2>
-  <br>
-  <p class="text-xl max-w-4xl mx-auto text-center text-tom-thumb-400">We are currently full-stack development students at the Brooklyn STEAM Center. Here, we have been assigned the task of creating a business that we believe would benefit society. During our brainstorming sessions, we focused on a significant issue that is increasingly relevant today: the rise of Artificial Intelligence (AI). This led us to develop the idea for Skill Armor, a platform that offers online courses and certifications for individuals looking to reskill for AI-resistant roles and careers. Our goal is to support those at risk of job displacement due to AI advancements.</p>
-<br>
-<br>
-  <include src="components/footer.html"></include>
+    <!-- Team Section -->
+    <section class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-semibold text-green-600">Meet Our Team</h2>
+            <div class="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12">
+                <!-- Profile 1 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/src/assets/images/Dilisa.jpeg" alt="Dilisa Ward" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Dilisa Ward</h3>
+                    <p class="text-gray-600">Lead Designer</p>
+                    <div class="mt-4 flex justify-center space-x-4">
+                        <a href="https://www.linkedin.com/in/dilisa-ward-b64b0a353/" target="_blank" class="text-green-500 hover:text-green-700">LinkedIn</a>
+                        <a href="https://github.com/dilisa25" target="_blank" class="text-green-500 hover:text-green-700">GitHub</a>
+                    </div>
+                </div>
+                <!-- Profile 2 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/src/assets/images/Jason.jpeg" alt="Jason Geban" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Jason Geban</h3>
+                    <p class="text-gray-600">Programer</p>
+                    <div class="mt-4 flex justify-center space-x-4">
+                        <a href="https://www.linkedin.com/in/jason-geban-jr-b7a475329/" target="_blank" class="text-green-500 hover:text-green-700">LinkedIn</a>
+                        <a href="https://github.com/Cooldude493" target="_blank" class="text-green-500 hover:text-green-700">GitHub</a>
+                    </div>
+                </div>
+                <!-- Profile 3 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/src/assets/images/Jesiah.jpeg" alt="Jesiah Minott" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Jesiah Minott</h3>
+                    <p class="text-gray-600">Lead Programer</p>
+                    <div class="mt-4 flex justify-center space-x-4">
+                        <a href="https://www.linkedin.com/in/jesiah-minott-138068354/" target="_blank" class="text-green-500 hover:text-green-700">LinkedIn</a>
+                        <a href="https://github.com/Jesiahm67" target="_blank" class="text-green-500 hover:text-green-700">GitHub</a>
+                    </div>
+                </div>
+                <!-- Profile 4 -->
+                <div class="bg-white p-6 rounded-lg shadow-lg">
+                    <img src="/src/assets/images/Valerie.jpeg" alt="Valerie Burke" class="w-32 h-32 mx-auto rounded-full mb-4">
+                    <h3 class="text-xl font-semibold">Valerie Burke</h3>
+                    <p class="text-gray-600">Programer</p>
+                    <div class="mt-4 flex justify-center space-x-4">
+                        <a href="https://www.linkedin.com/in/valerie-burke-7a2632354/" target="_blank" class="text-green-500 hover:text-green-700">LinkedIn</a>
+                        <a href="https://github.com/lavalender" target="_blank" class="text-green-500 hover:text-green-700">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-semibold text-green-600">Who We Are</h2>
+            <p class="mt-6 text-xl text-gray-700 max-w-3xl mx-auto">We are full-stack development students at the Brooklyn STEAM Center. Tasked with creating a business that benefits society, we focused on the rise of Artificial Intelligence (AI). This led to the creation of Skill Armor—a platform offering online courses and certifications to help individuals reskill for AI-resistant roles, supporting those at risk of job displacement due to AI advancements.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <include src="components/footer.html"></include>
+
 </body>
-
 
 </html>
