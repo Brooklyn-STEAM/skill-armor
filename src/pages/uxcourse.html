@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/src/styles/main.css" />
+  <title>Skill Armor | UX/UI Design Fundamentals</title>
+  <link rel="shortcut icon" href="/src/assets/images/logo.png" type="image/x-icon" />
+  <script src="/src/scripts/main.js"></script>
+</head>
+
+<body class="bg-green-100">
+
+  <!-- Navbar -->
+  <include src="components/navbar.html"></include>
+
+  <!-- Main Layout -->
+  <main class="flex min-h-screen bg-gray-100">
+    
+    <!-- Sidebar: Course Outline -->
+    <aside class="w-64 bg-white shadow-lg p-6">
+      <h2 class="text-lg font-bold mb-4">Course Outline</h2>
+      <ul class="space-y-3 text-sm">
+        <li class="font-semibold text-green-600">1. What is UX/UI Design?</li>
+        <li class="hover:text-green-600 cursor-pointer">2. Principles of Great UX</li>
+        <li class="hover:text-green-600 cursor-pointer">3. UI Design Fundamentals</li>
+        <li class="hover:text-green-600 cursor-pointer">4. Design Thinking Process</li>
+        <li class="hover:text-green-600 cursor-pointer">5. Wireframes & Prototyping</li>
+        <li class="hover:text-green-600 cursor-pointer">6. UX Research Basics</li>
+        <li class="hover:text-green-600 cursor-pointer">7. Final Project & Assessment</li>
+      </ul>
+    </aside>
+
+    <!-- Main Course Content -->
+    <section class="flex-1 p-8">
+      
+      <!-- Lesson Section -->
+      <div class="bg-white rounded-lg shadow p-6 mb-6">
+        <h1 class="text-2xl font-bold mb-4">🎨 Lesson 1: What is UX/UI Design?</h1>
+
+        <!-- Lesson Media -->
+        <div class="mb-6">
+          <img src="/src/assets/images/UI-UX-Design.jpg" alt="UX/UI Design Concepts" class="w-full rounded" />
+        </div>
+
+        <p class="text-gray-700 mb-4 leading-relaxed">
+          UX (User Experience) and UI (User Interface) design are critical parts of creating intuitive, effective digital products.
+          In this lesson, you’ll get a high-level overview of both disciplines, understand their differences, and learn why good design improves user engagement, retention, and satisfaction.
+        </p>
+
+        <div class="flex items-center justify-between mt-6">
+          <button class="bg-gray-200 text-gray-700 px-4 py-2 rounded disabled:opacity-50" disabled>
+            ⬅ Previous
+          </button>
+
+          <button class="bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition">
+            Next ➡
+          </button>
+        </div>
+      </div>
+
+      <!-- Downloadable Resources -->
+      <div class="bg-white rounded-lg shadow p-6">
+        <h2 class="text-lg font-semibold mb-3">📁 Resources</h2>
+        <ul class="list-disc list-inside text-sm space-y-2">
